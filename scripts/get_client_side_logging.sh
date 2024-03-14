@@ -2,7 +2,7 @@
 set -xe
 
 CLIENT_SIDE_LOGGING_PATH=/usr/local/apache2/htdocs/client_side_logging
-CLIENT_SIDE_LOGGING_URL=https://raw.githubusercontent.com/Bahmni/client_side_logging/master
+CLIENT_SIDE_LOGGING_URL=https://raw.githubusercontent.com/ArpchanHospital/client_side_logging/master
 mkdir ${CLIENT_SIDE_LOGGING_PATH}
 
 curl -o ${CLIENT_SIDE_LOGGING_PATH}/RotatingLogger.py ${CLIENT_SIDE_LOGGING_URL}/RotatingLogger.py
