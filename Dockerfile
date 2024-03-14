@@ -1,5 +1,7 @@
 FROM httpd:2.4-alpine
 
+RUN python3 -m pip install --upgrade pip
+
 # Update Alpine packages and install necessary dependencies
 RUN apk update && apk upgrade && \
     apk add --no-cache \
